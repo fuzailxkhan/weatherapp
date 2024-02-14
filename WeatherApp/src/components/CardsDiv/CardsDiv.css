@@ -1,4 +1,22 @@
 .cards-div{
     width: 100%;
     text-align: center;
+    padding-top: 20px;
+}
+.text-location{
+    background:  rgba(255, 255, 255, 0.603);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    margin:10px 40% 0px 40%;
+    padding: 3px 0 4px 0;
+    
+}
+
+.location-icon{
+    margin-top: 2px;
+}
+
+h6{
+    margin:0;
 }
