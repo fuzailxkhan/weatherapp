@@ -1,8 +1,11 @@
+import SearchBar from "./SearchDiv/SearchBar"
 import "./SearchDiv/SearchDiv.css"
 
 const SearchDiv = () => {
   return (
-    <div className="search-div border border-black">SearchDiv</div>
+    <div className="search-div">
+      <SearchBar />
+    </div>
   )
 }
 

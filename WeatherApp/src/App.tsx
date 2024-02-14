@@ -4,9 +4,11 @@ import SearchDiv from "./components/SearchDiv"
 
 const App = () => {
   return (
-    <div className="main-div border border-dark d-flex col ">
-      <SearchDiv />
-      <CardsDiv />
+    <div className="back-div">
+      <div className="main-div">
+        <SearchDiv />
+        <CardsDiv />
+      </div>
     </div>
   )
 }

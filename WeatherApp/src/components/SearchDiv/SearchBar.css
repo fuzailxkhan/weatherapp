@@ -1,0 +1,27 @@
+.search-form{
+    padding:10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.search-input{
+    border-radius: 100px;
+    padding-left: 6%;
+    width: 400px;
+    border: none;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.034));
+    box-shadow: 0 8px 32px 0px rgba(0, 0, 0, 0.37);
+    
+}
+
+.search-input::placeholder{
+    color: black;
+}
+
+.search-button{
+    border: none;
+    margin-left: 1%;
+    padding-bottom: 4px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}

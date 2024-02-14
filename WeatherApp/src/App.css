@@ -1,3 +1,20 @@
-.main-div{
-    margin:7%;
+.back-div {
+    background-image: url("../public/cloudy-weather.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 15% 5% 15% ;
+    height: 100vh;
+    position: relative;
+    display: flex;
 }
+
+.main-div{
+    width: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)
+}
+
