@@ -1,0 +1,19 @@
+.weekly-card{
+    background:  rgba(255, 255, 255, 0.774);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin:10px;
+    border-radius: 10px;
+    padding-top:5px;
+}
+
+.weeklyweatherdiv{
+    padding: 20px 70px 20px 70px;
+}
+
+.weekly-card-temp{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: smaller; 
+}

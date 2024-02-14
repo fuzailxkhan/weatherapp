@@ -10,14 +10,8 @@ const WeatherToday = () => {
         <div className="d-flex text-degree">
           <h1 className="m-0">30°C <TiWeatherPartlySunny className="mb-2"/></h1>
         </div>
-
-        
           <h3>Cloudy</h3>
           <p>Feels like 34°C</p>
-        
-
-        
-
       </div>
 
       <div className="temperature-details">
