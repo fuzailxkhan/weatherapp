@@ -19,7 +19,7 @@ const CardsDiv = ({data}:cardsDivProps) => {
           <TfiLocationPin className="location-icon"/>
         </div>
         <WeatherToday data={data} />
-        <WeeklyWeather />
+        {data.forecast&&<WeeklyWeather data={data}/>}
       </div>
     </div>
   )

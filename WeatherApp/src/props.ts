@@ -1,19 +1,23 @@
 
 type responseType = {
     location:{
-            country:String,
-            name:String,
-            region:String,
+            country:string,
+            name:string,
+            region:string,
           },
-          current:{
-            humidity:Number,
-            temp_c:Number,
-            temp_f:Number,
-            wind_kph:Number,
-            cloud:Number,
-            feelslike_c: Number,
-            precip_in: Number,
-          }
+    current:{
+            humidity:number,
+            temp_c:number,
+            temp_f:number,
+            wind_kph:number,
+            cloud:number,
+            feelslike_c: number,
+            precip_in: number,
+          },
+    forecast:{
+      forecastday:{date:string,
+        day:{avghumidity:number,avgtemp_c:number,daily_chance_of_rain:number,daily_chance_of_snow:number,maxwind_kph:number,totalprecip_in:number}
+       }[]},
   }
 
   export default responseType;

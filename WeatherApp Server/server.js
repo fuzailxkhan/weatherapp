@@ -10,7 +10,7 @@ app.use(express.json())
 
 const getWeather= async (location)=>{
     var response ;
-    response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=5fe58edafc284b2483685019241402&q=${location}&aqi=no`);
+    response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=5fe58edafc284b2483685019241402&q=karachi&days=7&aqi=no&alerts=no`);
     
     return (response.data);
 
@@ -20,8 +20,7 @@ const getWeather= async (location)=>{
 app.get("/getWeather", async(req,res)=>{
     console.log("Req Recieved");
     console.log(req.query.loc);
-    var response = await getWeather(req.query.loc);
-    console.log(response.body)
+    var response = await getWeather(req.query.loc);   
     res.json(response);
 })
 

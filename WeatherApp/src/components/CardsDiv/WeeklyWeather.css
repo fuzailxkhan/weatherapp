@@ -12,8 +12,7 @@
 }
 
 .weekly-card-temp{
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 3px;
+    margin-top: 15px;
+    text-align: center;
     font-size: smaller; 
 }
