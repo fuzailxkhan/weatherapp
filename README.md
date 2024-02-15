@@ -22,5 +22,5 @@ This is a Weather App built with the MERN stack (MongoDB, Express.js, React.js, 
 1. Clone the repository:
  clone https://github.com/fuzailxkhan/weatherapp.git
 2. cd weather-app
-npm install
+npm install<br/>
 3.npm start
