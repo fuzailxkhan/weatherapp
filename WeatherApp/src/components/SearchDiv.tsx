@@ -1,10 +1,14 @@
 import SearchBar from "./SearchDiv/SearchBar"
 import "./SearchDiv/SearchDiv.css"
 
-const SearchDiv = () => {
+interface SearchDivProps{
+  handleSearch:(search:string)=>void;
+}
+
+const SearchDiv = ({handleSearch}:SearchDivProps) => {
   return (
     <div className="search-div">
-      <SearchBar />
+      <SearchBar handleSearch={handleSearch}/>
     </div>
   )
 }

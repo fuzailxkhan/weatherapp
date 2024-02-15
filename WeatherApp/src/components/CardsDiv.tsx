@@ -3,17 +3,22 @@ import WeatherToday from "./CardsDiv/WeatherToday"
 
 import { TfiLocationPin } from "react-icons/tfi";
 import WeeklyWeather from "./CardsDiv/WeeklyWeather";
+import responseType from "../props";
+
+interface cardsDivProps{
+  data:responseType
+}
 
 
-const CardsDiv = () => {
+const CardsDiv = ({data}:cardsDivProps) => {
   return (
     <div className="cards-div">
       <div >
         <div className="text-location d-flex align-items-center justify-content-center">
-          <h6>Karachi, Pakistan</h6>
+          <h6>{data.location.name}, {data.location.country}</h6>
           <TfiLocationPin className="location-icon"/>
         </div>
-        <WeatherToday />
+        <WeatherToday data={data} />
         <WeeklyWeather />
       </div>
     </div>
